@@ -1,5 +1,5 @@
 #include <assert.h>
-#include <demangle.h>
+#include <swiftdemangle.h>
 #include <stdlib.h>
 #include <string.h>
 

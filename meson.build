@@ -22,4 +22,4 @@ llvm_dep = dependency('llvm')
 subdir('src')
 subdir('tests')
 
-install_headers(files('include/demangle.h'))
+install_headers(files('include/swiftdemangle.h'))
