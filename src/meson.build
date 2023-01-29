@@ -39,3 +39,5 @@ swift_demangler_dep = declare_dependency(
     link_with: swift_demangler_lib,
     dependencies: swift_demangler_deps,
 )
+
+pkg.generate(swift_demangler_lib)
