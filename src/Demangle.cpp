@@ -64,6 +64,7 @@ char *swift_demangle(const char *mangledName,
 #else
   // Demangle the name.
   auto options = Demangle::DemangleOptions();
+  options.SynthesizeSugarOnTypes = true;
   options.DisplayDebuggerGeneratedModule = false;
   auto result =
       Demangle::demangleSymbolAsString(mangledName,
